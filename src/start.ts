@@ -1,3 +1,5 @@
+#!/usr/bin/env bun
+
 import { BunRequest } from 'bun';
 import { BuPNG } from 'bupng';
 

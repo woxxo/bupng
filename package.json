@@ -1,6 +1,6 @@
 {
     "name": "bupng",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Ultra lightweight library to create png files in Bun.",
     "license": "MIT",
     "main": "./src/bupng.ts",
