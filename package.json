@@ -1,0 +1,39 @@
+{
+    "name": "bupng",
+    "version": "0.0.3",
+    "description": "Ultra lightweight library to create png files in Bun.",
+    "license": "MIT",
+    "main": "./src/bupng.ts",
+    "bin": "./src/start.ts",
+    "repository": "github:woxxo/bupng",
+    "author": "woxxo",
+    "homepage": "https://github.com/woxxo/bupng",
+    "private": false,
+    "sideEffects": false,
+    "type": "module",
+    "files": [
+        "./LICENSE",
+        "./src/",
+        "./.gitignore"
+    ],
+    "keywords": [
+        "bun",
+        "png",
+        "library"
+    ],
+    "scripts": {
+        "start": "bun ./src/start.ts",
+        "benchmark": "bun ./src/bench.ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "exports": {
+        ".": "./src/bupng.ts",
+        "./package.json": "./package.json"
+    },
+    "engines": {
+        "bun": ">=1.2.4"
+    },
+    "devDependencies": {
+        "@types/bun": "latest"
+    }
+}
